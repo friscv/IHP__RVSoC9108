@@ -5,18 +5,18 @@
   "unique_id": "9108",
   "license": "Apache-2.0",
   "trl": 0,
-  "sealring_x": 1.0,
-  "sealring_y": 1.0,
+  "sealring_x": 2.1,
+  "sealring_y": 2.1,
   "repository": "",
-  "pdk_version": "",
+  "pdk_version": "7ef70c7e871f7c8868bf5ed7488b1837c48fc022",
   "process": "SG13CMOS",
   "dependencies": {},
   "tools": {},
   "top_cell_name": "RVSoC9108",
   "release": {
     "version": "v.1.0.0",
-    "gds": "release/v.1.0.0/gds",
-    "netlist": "release/v.1.0.0/netlist",
+    "gds": "release/v.1.0.0/gds/RVSoC9108.gds.gz",
+    "netlist": "release/v.1.0.0/netlist/RVSoC9108.cdl",
     "doc": "release/v.1.0.0/doc"
   }
 }
