@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+======================= nom_slow_1p08V_125C Corner ===================================
+
+Clock clk_PAD
+2.537959 source latency _93764_/CLK ^
+-1.736833 target latency soc_inst.i_vernii_soc.i_mem_hub.gen_ocm_llc.ocm_llc.gen_tag_sram.tag_sram.gen_64x64.i_cut/A_CLK ^
+0.250000 clock uncertainty
+-0.009835 CRPR
+--------------
+1.041291 setup skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+5.041807 source latency _86379_/CLK ^
+-4.743742 target latency _87442_/CLK ^
+0.250000 clock uncertainty
+-0.212467 CRPR
+--------------
+0.335597 setup skew
+
+Clock jtag_tck
+1.795439 source latency _86000_/CLK ^
+-1.571096 target latency _86046_/CLK ^
+0.250000 clock uncertainty
+-0.057426 CRPR
+--------------
+0.416916 setup skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+

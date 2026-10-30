@@ -1,0 +1,228 @@
+Clock: clk_PAD
+Sources: clk_pad/p2c 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 13.330000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+clk_PAD              13.330000    0.000000  6.665000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock clk_PAD
+rise -> rise
+    min     max
+0.000000 0.000000 source latency
+1.107681         network latency soc_inst.i_vernii_soc.i_mem_hub.gen_ocm_llc.ocm_llc.gen_tag_sram.tag_sram.gen_64x64.i_cut/A_CLK
+        2.080464 network latency _86407_/CLK
+---------------
+1.107681 2.080464 latency
+        0.972782 skew
+
+rise -> fall
+    min     max
+0.000000 0.000000 source latency
+1.868949         network latency _86421_/CLK
+        1.988955 network latency _86420_/CLK
+---------------
+1.868949 1.988955 latency
+        0.120007 skew
+
+fall -> rise
+    min     max
+0.000000 0.000000 source latency
+1.877519         network latency _86421_/CLK
+        1.998705 network latency _86420_/CLK
+---------------
+1.877519 1.998705 latency
+        0.121186 skew
+
+fall -> fall
+    min     max
+0.000000 0.000000 source latency
+-5.134212         network latency _89176_/CLK
+        2.076625 network latency _86407_/CLK
+---------------
+-5.134212 2.076625 latency
+        7.210836 skew
+
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+clk_PAD period_min = 8.09 fmax = 123.64
+Clock: jtag_tck
+Sources: jtag_tck_PAD 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 100.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+jtag_tck            100.000000    0.000000 50.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock jtag_tck
+rise -> rise
+    min     max
+0.000000 0.000000 source latency
+1.016375         network latency _93373_/CLK
+        1.172413 network latency _86000_/CLK
+---------------
+1.016375 1.172413 latency
+        0.156037 skew
+
+rise -> fall
+    min     max
+0.000000 0.000000 source latency
+1.174437         network latency _86011_/CLK
+        1.247804 network latency _86011_/CLK
+---------------
+1.174437 1.247804 latency
+        0.073366 skew
+
+fall -> rise
+    min     max
+0.000000 0.000000 source latency
+1.156035         network latency _86011_/CLK
+        1.225640 network latency _86011_/CLK
+---------------
+1.156035 1.225640 latency
+        0.069605 skew
+
+fall -> fall
+    min     max
+0.000000 0.000000 source latency
+1.013429         network latency _86101_/CLK
+        1.158181 network latency _86000_/CLK
+---------------
+1.013429 1.158181 latency
+        0.144752 skew
+
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+jtag_tck period_min = 3.19 fmax = 313.57
+Clock: hb_rwds
+Sources: hb_rwds_PAD 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 13.330000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+hb_rwds              13.330000    0.000000  6.665000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock hb_rwds
+rise -> rise
+    min     max
+0.000000 0.000000 source latency
+2.856616         network latency _86409_/CLK
+        3.016848 network latency _86412_/CLK
+---------------
+2.856616 3.016848 latency
+        0.160231 skew
+
+rise -> fall
+    min     max
+0.000000 0.000000 source latency
+2.878471         network latency _87478_/CLK
+        3.105356 network latency _86568_/CLK
+---------------
+2.878471 3.105356 latency
+        0.226884 skew
+
+fall -> rise
+    min     max
+0.000000 0.000000 source latency
+3.047651         network latency _87479_/CLK
+        3.285300 network latency _86568_/CLK
+---------------
+3.047651 3.285300 latency
+        0.237650 skew
+
+fall -> fall
+    min     max
+0.000000 0.000000 source latency
+3.023192         network latency _86409_/CLK
+        3.183574 network latency _86412_/CLK
+---------------
+3.023192 3.183574 latency
+        0.160382 skew
+
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+hb_rwds period_min = 2.94 fmax = 340.62
+Clock: hb_ck_int
+Sources: soc_inst.i_hyperbus.i_phy.clock_generator.i_delay_tx_clk_90/i_delay.i_delay_line/clk_o[0] 
+Generated: yes
+Virtual: yes
+Propagated: no
+Period: 13.330000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+hb_ck_int            13.330000    0.000000  6.665000 (generated)
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock hb_ck_int
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+hb_ck_int period_min = 0.00 fmax = inf
+Clock: qspi0_sck
+Sources: qspi0_sck_pad/c2p 
+Generated: yes
+Virtual: yes
+Propagated: no
+Period: 26.660000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+qspi0_sck            26.660000    0.000000 13.330000 (generated)
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock qspi0_sck
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+qspi0_sck period_min = 0.00 fmax = inf

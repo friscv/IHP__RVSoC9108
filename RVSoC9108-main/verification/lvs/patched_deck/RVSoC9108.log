@@ -1,0 +1,89 @@
+# Logfile created on 2026-10-29 18:51:15 +0100 by logger.rb/v1.6.0
+2026-10-29 18:51:15 +0100: Memory Usage (424784K) : Starting running SG13CMOS5L Klayout LVS runset on /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/release/RVSoC9108.gds
+2026-10-29 18:51:15 +0100: Memory Usage (424784K) : Ruby Version for klayout: 3.3.10
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Loading database to memory is complete.
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : SG13CMOS5L Klayout LVS runset output at: /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/build/lvs_run/blackbox/RVSoC9108.lvsdb
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Evaluate switches.
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Extracted netlist with net names: true
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Extracted netlist with comments in details: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected NET_ONLY option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected LAYOUT_NETLIST option: /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/build/lvs_run/extract/RVSoC9108_extracted.cir
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected IGNORE_TOP_PORTS_MISMATCH option: 
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected IMPLICIT_NETS option: (none)
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected TOP_LVL_PINS option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected COMBINE DEVICES option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected PURGE option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected PURGE_NETS option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected SIMPLIFY option: true
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected SERIES_RES option: true
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected PARALLEL_RES option: true
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : Selected DISABLE_TAP_EXTRACTION option: false
+2026-10-29 18:51:16 +0100: Memory Usage (509736K) : deep  mode is enabled.
+2026-10-29 18:51:19 +0100: Memory Usage (644792K) : Netlist file: /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/release/RVSoC9108.cdl
+2026-10-29 18:51:19 +0100: Memory Usage (644792K) : LVS extracted netlist at: /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/build/lvs_run/blackbox/RVSoC9108_extracted.cir
+2026-10-29 18:51:19 +0100: Memory Usage (644792K) : Applying SRAM integration support.
+2026-10-29 18:51:19 +0100: Memory Usage (644792K) : Starting SG13CMOS5L LVS runset
+2026-10-29 18:51:19 +0100: Memory Usage (644792K) : LAYOUT_NETLIST enabled: skipping derivations/connectivity/extraction and loading layout netlist from file.
+2026-10-29 18:51:32 +0100: Memory Usage (882508K) : Layout-side netlist file: /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/build/lvs_run/extract/RVSoC9108_extracted.cir
+2026-10-29 18:51:32 +0100: Memory Usage (882508K) : Starting SG13CMOS5L LVS RF MOS Model Mapping
+2026-10-29 18:51:32 +0100: Memory Usage (882508K) : [layout_netlist] Apply RF MOS model mapping and rfmode parameter.
+2026-10-29 18:51:33 +0100: Memory Usage (893388K) : Starting SG13CMOS5L LVS Options Preparations
+2026-10-29 18:51:33 +0100: Memory Usage (893388K) : SG13CMOS5L LVS flow: layout_netlist input -> alignment -> option preparation -> comparison.
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing sg13cmos5l_IOPad*
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing SG13CMOS5L_IOPAD*
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing sg13cmos5l_Corner
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing SG13CMOS5L_CORNER
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing sg13cmos5l_Filler*
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing SG13CMOS5L_FILLER*
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Black-boxing RM_IHPSG13_1P_*
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Starting SG13CMOS5L LVS Alignment
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Devices to compare: layout=426 schematic=953 (schematic counted before alignment, both per circuit definition)
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : Starting SG13CMOS5L LVS Simplification
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [layout_netlist] simplify: ENABLED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [layout_netlist] make_top_level_pins: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [layout_netlist] combine_devices: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [layout_netlist] purge: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [layout_netlist] purge_nets: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [schematic_netlist] simplify: ENABLED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [schematic_netlist] make_top_level_pins: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [schematic_netlist] combine_devices: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [schematic_netlist] purge: SKIPPED
+2026-10-29 18:51:34 +0100: Memory Usage (890140K) : [schematic_netlist] purge_nets: SKIPPED
+2026-10-29 18:51:35 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIN: added pin $1 on pin VSS
+2026-10-29 18:51:35 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIN: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:36 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVSS: added pin $1 on pin VSS
+2026-10-29 18:51:36 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVSS: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:37 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVSS: floated pin VDD, absent from layout
+2026-10-29 18:51:37 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVDD: added pin $1 on pin VSS
+2026-10-29 18:51:38 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVDD: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:38 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADVDD: floated pin IOVDD, absent from layout
+2026-10-29 18:51:39 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADOUT30MA: added pin $1 on pin VSS
+2026-10-29 18:51:39 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADOUT30MA: added pin IOVDD$1 on pin IOVDD
+2026-10-29 18:51:40 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIOVDD: added pin $1 on pin VSS
+2026-10-29 18:51:40 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIOVDD: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:41 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIOVDD: floated pin VDD, absent from layout
+2026-10-29 18:51:41 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIOVSS: added pin $1 on pin VSS
+2026-10-29 18:51:42 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADIOVSS: floated pin VDD, absent from layout
+2026-10-29 18:51:42 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADINOUT30MA: added pin $1 on pin VSS
+2026-10-29 18:51:43 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_IOPADINOUT30MA: added pin IOVDD$1 on pin IOVDD
+2026-10-29 18:51:43 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER1000: added pin $1 on pin VSS
+2026-10-29 18:51:44 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER1000: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:44 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER1000: added pin IOVSS$2 on pin IOVSS
+2026-10-29 18:51:45 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER1000: floated pin VDD, absent from layout
+2026-10-29 18:51:45 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER1000: floated pin IOVDD, absent from layout
+2026-10-29 18:51:46 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER2000: added pin $1 on pin VSS
+2026-10-29 18:51:46 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER2000: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:47 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER2000: added pin IOVSS$2 on pin IOVSS
+2026-10-29 18:51:47 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER2000: floated pin VDD, absent from layout
+2026-10-29 18:51:48 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_FILLER2000: floated pin IOVDD, absent from layout
+2026-10-29 18:51:48 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_CORNER: added pin $1 on pin VSS
+2026-10-29 18:51:49 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_CORNER: added pin IOVSS$1 on pin IOVSS
+2026-10-29 18:51:49 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_CORNER: added pin IOVSS$2 on pin IOVSS
+2026-10-29 18:51:50 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_CORNER: floated pin VDD, absent from layout
+2026-10-29 18:51:50 +0100: Memory Usage (890140K) : schematic SG13CMOS5L_CORNER: floated pin IOVDD, absent from layout
+2026-10-29 18:51:50 +0100: Memory Usage (890140K) : Starting SG13CMOS5L LVS Comparison in strict port mode.
+2026-10-29 18:51:50 +0100: Memory Usage (890140K) : flag_missing_ports enabled: missing/mislabeled top-level ports are treated as errors.
+2026-10-29 18:52:02 +0100: Memory Usage (997584K) : ==========================================
+2026-10-29 18:52:02 +0100: Memory Usage (997584K) : INFO : Congratulations! Netlists match.
+2026-10-29 18:52:02 +0100: Memory Usage (997584K) : ==========================================
+2026-10-29 18:52:02 +0100: Memory Usage (997584K) : LVS Total Run time 46.888996 seconds

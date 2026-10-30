@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+======================= nom_typ_1p20V_25C Corner ===================================
+
+Clock clk_PAD
+1.382732 source latency soc_inst.i_vernii_soc.i_rst_rep_gpio_a/_1_/CLK ^
+-2.079051 target latency _89062_/CLK ^
+-0.050000 clock uncertainty
+-0.065265 CRPR
+--------------
+-0.811584 hold skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+2.862109 source latency _86416_/CLK ^
+-3.281893 target latency _87376_/CLK ^
+-0.050000 clock uncertainty
+-0.152811 CRPR
+--------------
+-0.622594 hold skew
+
+Clock jtag_tck
+1.016609 source latency _86086_/CLK ^
+-1.225640 target latency _86011_/CLK ^
+-0.050000 clock uncertainty
+-0.042835 CRPR
+--------------
+-0.301866 hold skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+

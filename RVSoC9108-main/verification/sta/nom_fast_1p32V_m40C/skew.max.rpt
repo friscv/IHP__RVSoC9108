@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+======================= nom_fast_1p32V_m40C Corner ===================================
+
+Clock clk_PAD
+1.115297 source latency _93764_/CLK ^
+-0.755382 target latency soc_inst.i_vernii_soc.i_mem_hub.gen_ocm_llc.ocm_llc.gen_tag_sram.tag_sram.gen_64x64.i_cut/A_CLK ^
+0.250000 clock uncertainty
+-0.004342 CRPR
+--------------
+0.605573 setup skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+2.202790 source latency _89165_/CLK ^
+-2.065215 target latency _87478_/CLK ^
+0.250000 clock uncertainty
+-0.099464 CRPR
+--------------
+0.288111 setup skew
+
+Clock jtag_tck
+0.821807 source latency _86000_/CLK ^
+-0.711788 target latency _86046_/CLK ^
+0.250000 clock uncertainty
+-0.028798 CRPR
+--------------
+0.331222 setup skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+

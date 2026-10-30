@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+======================= nom_fast_1p32V_m40C Corner ===================================
+
+Clock clk_PAD
+0.944521 source latency soc_inst.i_vernii_soc.i_rst_rep_gpio_a/_1_/CLK ^
+-1.439758 target latency _89062_/CLK ^
+-0.050000 clock uncertainty
+-0.046590 CRPR
+--------------
+-0.591828 hold skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+1.967732 source latency _86416_/CLK ^
+-2.227619 target latency _87376_/CLK ^
+-0.050000 clock uncertainty
+-0.108992 CRPR
+--------------
+-0.418880 hold skew
+
+Clock jtag_tck
+0.709949 source latency _86086_/CLK ^
+-0.851482 target latency _86011_/CLK ^
+-0.050000 clock uncertainty
+-0.031978 CRPR
+--------------
+-0.223512 hold skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+

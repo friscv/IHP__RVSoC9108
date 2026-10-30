@@ -6,29 +6,29 @@
 
 ## TRL3 - Experimental proof of concept
 
-- [ ] Is the IP functionality clearly described?
-- [ ] Have the potential applications of the IP been identified and described?
-- [ ] Are the IP requirements and specifications described (I/O description, Target technology, does it include a standard interface...)?
-- [ ] Has the RTL design been completed (Doesn't need to be synthesized)?
-- [ ] Has a complete behavioral simulation been performed?
-- [ ] Is a RTL model provided (doesn't need to be synthesizable)?
-- [ ] Are the behavioral testbenches provided?
+- [x] Is the IP functionality clearly described?
+- [x] Have the potential applications of the IP been identified and described?
+- [x] Are the IP requirements and specifications described (I/O description, Target technology, does it include a standard interface...)?
+- [x] Has the RTL design been completed (Doesn't need to be synthesized)?
+- [x] Has a complete behavioral simulation been performed?
+- [x] Is a RTL model provided (doesn't need to be synthesizable)?
+- [x] Are the behavioral testbenches provided?
 
 ## TRL4 - Component prototype
 
-- [ ] Has the design been synthesized?
-- [ ] Has a complete post-synthesis simulation been performed?
-- [ ] Is a post-synthesis model provided with all required files?
-- [ ] Are the post-synthesis testbenches provided?
-- [ ] Are the preliminary Power, Performance and Area (PPA) results provided?
+- [x] Has the design been synthesized?
+- [x] Has a complete post-synthesis simulation been performed?
+- [x] Is a post-synthesis model provided with all required files?
+- [x] Are the post-synthesis testbenches provided?
+- [x] Are the preliminary Power, Performance and Area (PPA) results provided?
 
 ## TRL5 - Subsystem designed and tested
 
-- [ ] Is the Place and Route stage performed successfully?
-- [ ] Are all the required files to instantiate the IP provided (LEF, netlist, .gds, liberty file .lib…)?
-- [ ] Are all the library dependencies stated?
-- [ ] Are the post-place&Route simulations performed and the testbenches provided?
-- [ ] Are there clear instructions to use and integrate the hard IP?
+- [x] Is the Place and Route stage performed successfully?
+- [x] Are all the required files to instantiate the IP provided (LEF, netlist, .gds, liberty file .lib…)?
+- [x] Are all the library dependencies stated?
+- [x] Are the post-place&Route simulations performed and the testbenches provided?
+- [x] Are there clear instructions to use and integrate the hard IP?
 
 ## TRL6 - Functional (Alpha) prototype
 

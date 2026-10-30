@@ -1,0 +1,16 @@
+29-Oct-2026 18:51:13 | INFO    | Your Klayout version is: KLayout 0.30.9
+29-Oct-2026 18:51:13 | INFO    | Running SG13CMOS5L LVS checks on design /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/release/RVSoC9108.gds on cell RVSoC9108
+29-Oct-2026 18:52:04 | INFO    | ==============================================================================
+29-Oct-2026 18:52:04 | INFO    | Important Summary
+29-Oct-2026 18:52:04 | INFO    | +------------------+-----------------------------------------------------------------------------+
+29-Oct-2026 18:52:04 | INFO    | | Status           | PASS                                                                        |
+29-Oct-2026 18:52:04 | INFO    | | Mode             | COMPARE                                                                     |
+29-Oct-2026 18:52:04 | INFO    | | Outcome          | Comparison mode: PASS (netlists match).                                     |
+29-Oct-2026 18:52:04 | INFO    | | Layout           | RVSoC9108.gds                                                               |
+29-Oct-2026 18:52:04 | INFO    | | Top Cell         | RVSoC9108                                                                   |
+29-Oct-2026 18:52:04 | INFO    | | Results Dir      | /home/matt/frisc-hbt/mpw77/src/target/ihp-sg13cmos5l/build/lvs_run/blackbox |
+29-Oct-2026 18:52:04 | INFO    | | Warnings         | 0                                                                           |
+29-Oct-2026 18:52:04 | INFO    | | Errors           | 0                                                                           |
+29-Oct-2026 18:52:04 | INFO    | | Run Time (s)     | 50.934                                                                      |
+29-Oct-2026 18:52:04 | INFO    | +------------------+-----------------------------------------------------------------------------+
+29-Oct-2026 18:52:04 | INFO    | ==============================================================================

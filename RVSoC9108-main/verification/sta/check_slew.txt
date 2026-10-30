@@ -1,0 +1,50 @@
+python3 scripts/check_slew.py librelane/runs/RUN_2026-10-29_18-35-16
+run: RUN_2026-10-29_18-35-16
+
+  nom_fast_1p32V_m40C      pad  89   other   0
+  nom_slow_1p08V_125C      pad 117   other   0
+  nom_typ_1p20V_25C        pad 117   other   0
+
+NOTE 39 pad signals over the limit (accepted), worst slew per corner [ns]:
+                           fast     slow      typ
+  gpio_a[3]               1.333    3.548    1.979
+  hb_dq[7]                1.341    3.548    2.013
+  hb_dq[6]                1.340    3.547    2.011
+  hb_dq[5]                1.339    3.545    2.009
+  hb_dq[4]                1.337    3.542    2.006
+  gpio_a[5]               1.333    3.542    1.970
+  hb_dq[3]                1.333    3.542    1.997
+  gpio_a[4]               1.333    3.542    1.967
+  gpio_a[6]               1.333    3.542    1.966
+  gpio_a[7]               1.333    3.542    1.966
+  gpio_a[1]               1.333    3.542    1.962
+  qspi0_io[1]             1.333    3.542    1.962
+  qspi0_io[3]             1.333    3.542    1.962
+  hb_dq[0]                1.333    3.542    1.962
+  hb_dq[1]                1.333    3.542    1.962
+  hb_dq[2]                1.333    3.542    1.962
+  gpio_a[2]               1.333    3.530    1.962
+  hb_rwds                 1.289    3.509    1.957
+  qspi0_io[0]             1.333    3.506    1.955
+  qspi0_io[2]             1.333    3.490    1.949
+  gpio_a[0]               1.333    3.486    1.946
+  qspi0_cs[2]             1.218    2.546    1.669
+  hb_cs[1]                1.218    2.546    1.669
+  qspi0_sck               1.218    2.546    1.669
+  hb_cs[0]                1.218    2.546    1.669
+  heartbeat               1.218    2.546    1.669
+  uart0_tx                1.218    2.546    1.669
+  qspi0_cs[0]             1.217    2.546    1.668
+  qspi0_cs[1]             1.217    2.545    1.668
+  jtag_tdo                1.217    2.545    1.668
+  hb_rst                  1.217    2.545    1.668
+  hb_ck                   1.217    2.545    1.668
+  boot[0]                 1.333    1.333    1.333
+  boot[1]                 1.333    1.333    1.333
+  jtag_tdi                1.333    1.333    1.333
+  jtag_tms                1.333    1.333    1.333
+  jtag_trst_n             1.333    1.333    1.333
+  rst_n                   1.333    1.333    1.333
+  uart0_rx                1.333    1.333    1.333
+
+PASS

@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+======================= nom_slow_1p08V_125C Corner ===================================
+
+Clock clk_PAD
+2.150941 source latency soc_inst.i_vernii_soc.i_rst_rep_gpio_a/_1_/CLK ^
+-3.189181 target latency _89062_/CLK ^
+-0.050000 clock uncertainty
+-0.095752 CRPR
+--------------
+-1.183992 hold skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+4.462993 source latency _86416_/CLK ^
+-5.100225 target latency _87376_/CLK ^
+-0.050000 clock uncertainty
+-0.229512 CRPR
+--------------
+-0.916744 hold skew
+
+Clock jtag_tck
+1.569185 source latency _93493_/CLK ^
+-1.880380 target latency _86011_/CLK ^
+-0.050000 clock uncertainty
+-0.063512 CRPR
+--------------
+-0.424708 hold skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+

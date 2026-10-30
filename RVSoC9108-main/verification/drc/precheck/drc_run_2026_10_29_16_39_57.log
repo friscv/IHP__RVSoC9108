@@ -1,0 +1,6 @@
+29-Oct-2026 17:39:57 | INFO    | KLayout version detected: 0.30.9
+29-Oct-2026 17:39:57 | INFO    | Using DRC JSON file: /nix/store/q1zl14f0ipz6ml0pj5gq27w5vk2mxgp9-source/ihp-sg13cmos5l/libs.tech/klayout/python/sg13cmos5l_pycell_lib/sg13cmos5l_tech_mod.json
+29-Oct-2026 17:58:57 | INFO    | =====================================================================================
+29-Oct-2026 17:58:57 | INFO    | KLayout DRC Check Passed: No DRC violations detected in the layout.
+29-Oct-2026 17:58:57 | INFO    | =====================================================================================
+29-Oct-2026 17:58:57 | INFO    | Total DRC Run time: 1139.65 seconds (including execution, analysis, and reporting)

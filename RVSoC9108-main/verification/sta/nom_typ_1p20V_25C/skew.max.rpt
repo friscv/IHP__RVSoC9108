@@ -1,0 +1,36 @@
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+======================= nom_typ_1p20V_25C Corner ===================================
+
+Clock clk_PAD
+1.631243 source latency _93764_/CLK ^
+-1.107681 target latency soc_inst.i_vernii_soc.i_mem_hub.gen_ocm_llc.ocm_llc.gen_tag_sram.tag_sram.gen_64x64.i_cut/A_CLK ^
+0.250000 clock uncertainty
+-0.006348 CRPR
+--------------
+0.767214 setup skew
+
+Clock hb_ck_int
+No launch/capture paths found.
+
+Clock hb_rwds
+3.243706 source latency _86379_/CLK ^
+-3.047651 target latency _87479_/CLK ^
+0.250000 clock uncertainty
+-0.139566 CRPR
+--------------
+0.306490 setup skew
+
+Clock jtag_tck
+1.172413 source latency _86000_/CLK ^
+-1.018192 target latency _86046_/CLK ^
+0.250000 clock uncertainty
+-0.039043 CRPR
+--------------
+0.365177 setup skew
+
+Clock qspi0_sck
+No launch/capture paths found.
+
